@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz sur Xavier</title>
+  </head>
+  <body id="xavierbody">
+    <h1>Quiz sur Xavier</h1>
+    <header>
+      <div id="Raccourci2">
+        <ol class="listeol">
+          <li><a class="lien-quiz"href="#xq1">Question 1</a></li>
+          <li><a class="lien-quiz"href="#xq2">Question 2</a></li>
+          <li><a class="lien-quiz"href="#xq3">Question 3</a></li>
+          <li><a class="lien-quiz"href="#xq4">Question 4</a></li>
+          <li><a class="lien-quiz"href="#xq5">Question 5</a></li>
+          <li><a class="lien-quiz"href="./index.html">Retour à la page d'accueil</a></li>
+        </ol>
+      </div>
+    </header>
+    <main>
+        <h2 id="xq1">
+          Quel activté fait Xavier pendant son temps libre ?
+        </h2>
+        <div class="test">
+          <div class =rep>
+            <div class="rep12">
+              <button onclick="fonction1()" class="rep1">de l'escalade</button>
+              <button onclick="fonction1()" class="rep2">de la lecture de manga</button>
+            </div>
+            <div class="rep34">
+              <button onclick="fonction2()" class="repvrai rep3">de la collecte de cailloux</button>
+              <button onclick="fonction1()" class="rep4">de la natation</button>
+            </div>
+          </div>
+          <div class="faux1 réponsedonnée1">
+            <img src=XavierMauvaiseréponse.jpg alt=" photo de Xavier petit qui fait la tête" height="550px">
+            <p classe=vrairep>Malheureusement la bonne réponse était de la collecte de cailloux.</p>
+          </div>
+          <div class="vrai1 réponsedonnée2">
+            <img src=XavierBonneréponse.jpg alt=" photo de Xavier avec un pouce en l'air" height="550px">
+            <p classe=vrairep>Bravo la réponse était bien de la collecte de cailloux.</p>
+          </div>
+        </div>
+        <h2 id="xq2">
+          Quel est la date de naissance de Xavier ?
+        </h2>
+        <div class="test">
+          <div class=rep>
+            <div class="rep12">
+              <button onclick="fonction3()" class="rep1">Le 6 mars</button>
+              <button onclick="fonction3()" class="rep2">Le 15 decembre</button>
+            </div>
+            <div class="rep34">
+              <button onclick="fonction3()" class="rep3">Le 32 Juin</button>
+              <button onclick="fonction4()" class="repvrai rep4">Le 29 Mai</button>
+            </div>
+          </div>
+          <div class="faux2 réponsedonnée1">
+            <img src=XavierMauvaiseréponse.jpg alt=" photo de Xavier petit qui fait la tête" height="550px">
+            <p classe=vrairep>Malheureusement la bonne réponse était le 29 mai.</p>
+          </div>
+          <div class="vrai2 réponsedonnée2">
+            <img src=XavierBonneréponse.jpg alt=" photo de Xavier avec un pouce en l'air" height="550px">
+            <p classe=vrairep>Bravo la réponse était bien le 29 mai.</p>
+          </div>
+        </div>
+        <h2 id="xq3">
+          Quelle est la couleur préférée de xavier ?
+        </h2>
+        <div class="test">
+          <div class="rep">
+            <div class="rep12">
+              <button onclick="fonction5()"class="rep1">Le noir</button>
+              <button onclick="fonction5()"class="rep2">Le bleu</button>
+            </div>
+            <div class="rep34">
+              <button onclick="fonction5()"class="rep3">Le violet</button>
+              <button onclick="fonction6()" class="repvrai rep4">Il n'en a pas.</button>
+            </div>
+          </div>
+          <div class="faux3 réponsedonnée1">
+            <img src=XavierMauvaiseréponse.jpg alt=" photo de Xavier petit qui fait la tête" height="550px">
+            <p classe=vrairep>Malheureusement la bonne réponse était il n'en a pas.</p>
+          </div>
+          <div class="vrai3 réponsedonnée2">
+            <img src=XavierBonneréponse.jpg alt=" photo de Xavier avec un pouce en l'air" height="550px">
+            <p classe=vrairep>Bravo la réponse était bien il n'en a pas.</p>
+          </div>
+        </div>
+        <h2 id="xq4">
+          Quelle a été la première OS(options spécifique) choisis par Xavier ?
+        </h2>
+        <div class="test">
+          <div class=rep>
+            <div class="rep12">
+              <button onclick="fonction7()"class="rep1">Grec débutant</button>
+              <button onclick="fonction8()" class="repvrai rep2">Latin débutant</button>
+            </div>
+            <div class="rep34">
+              <button onclick="fonction7()"class="rep3">AV(dessin)</button>
+              <button onclick="fonction7()"class="rep4">Latin avancé</button>
+            </div>
+          </div>
+          <div class="faux4 réponsedonnée1">
+            <img src=XavierMauvaiseréponse.jpg alt=" photo de Xavier petit qui fait la tête" height="550px">
+            <p classe=vrairep>Malheureusement la bonne réponse était Latin débutant.</p>
+          </div>
+          <div class="vrai4 réponsedonnée2">
+            <img src=XavierBonneréponse.jpg alt=" photo de Xavier avec un pouce en l'air" height="550px">
+            <p classe=vrairep>Bravo la réponse était bien Latin débutants.</p>
+          </div>
+        </div>
+        <h2 id="xq5">
+          Comment s'appellent les deux chats de Xavier ?
+        </h2>
+        <div class=test>
+          <div class="rep">
+            <div class="rep12">
+              <button onclick="fonction9()"class="rep1">Tigrous et Ptérodactyle</button>
+              <button onclick="fonction9()"class="rep2">T-rex et Lion</button>
+            </div>
+            <div class="rep34">
+              <button onclick="fonction9()"class="rep3">Lynx et Diplodocus</button>
+              <button onclick="fonction10()" class="repvrai rep4">Tigris et Raptor</button>
+            </div>
+          </div>
+          <div class="faux5 réponsedonnée1">
+            <img src=XavierMauvaiseréponse.jpg alt=" photo de Xavier petit qui fait la tête" height="550px">
+            <p classe=vrairep>Malheureusement la bonne réponse était Tigris et Raptor.</p>
+          </div>
+          <div class="vrai5 réponsedonnée2">
+            <img src=XavierBonneréponse.jpg alt=" photo de Xavier avec un pouce en l'air" height="550px">
+            <p classe=vrairep>Bravo la réponse était bien Tigris et Raptor.</p>
+          </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
